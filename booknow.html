@@ -31,7 +31,46 @@
     </nav>
 
     <main>
-
+  <h2>Book Now!</h2>
+	    <p>Frame and Focus is currently open to commissions. Secure your photoshoot while spots last.</p>
+	    <h3>Commission Form</h3>
+	    <form class="">
+		    <fieldset>
+			    <legend>Contact Info</legend>
+			    <label for="fname"> First Name: </label>
+			    <input type="text" id="fname" name="fname" required>
+			    <label for="lname">Last Name:</label>
+			    <input type="text" id="lname" name="lname" required><br>
+			    <label for="phone">Phone:</label>
+			    <input type="tel" id="phone" name="phone" required><br>
+			    <label for="email">Email:</label>
+			    <input type="email" id="email" name="email" required><br>
+			    <label for="recieve"><input type="checkbox" name="recieve" id="recieve" value="Recieve Email Notifications">I agree to receive email notifications for upcoming events, bookings, and other Frame and Focus promotions.</label>
+		    </fieldset>
+		    <fieldset>
+			    <legend>Booking Info</legend>
+			    <label for="shoot">Type of Photoshoot</label>
+			    <input list="shoot" name="shoot">
+			    <datalist id="shoot">
+				    <option value="Graduation"><option value="Family"><option value="Personal"> <option value="Landscape"><option value="Pet"><option value="Other">
+          		</datalist>
+                <label for="time">Booking Length:</label>
+                <input list="time" name="time">
+                <datalist id="time">
+                <option value="1 Hour"><option value="1 Hour 30 Minutes"><option value="2 Hours"><option value="2 Hours 30 Minutes"><option value="3 Hours">
+                </datalist>
+		    </fieldset>
+            <fieldset>
+            <label for="additional">Additional Details</label><br>
+   
+            
+            <textarea name="additional" rows="10" cols="30"> Use this area to list any specific details or infomration regarding your photoshoot.</textarea>
+            </fieldset>
+            <p>*Once your information is submitted, we'll reach back out with our availability.</p>
+            <input type="submit" value="Submit">
+		    
+	    </form>
+	    
     </main>
 
     <footer>
