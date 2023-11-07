@@ -1,0 +1,62 @@
+/* Css */
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+
+/* Style rule for box sizing applies to all elements (IF NEEDED) */
+
+/* Style rules for mobile viewport*/
+
+/* Style rule for header */
+
+/* Style rules for nagivation area */
+
+/* Show mobile class, hide tablet-desktop class */
+
+/* Style rules for main content */
+
+/* Style rules for form elements */
+
+/* Style rules for footer content */
+
+/*Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+
+/*Tablet Viewport: show tablet-desktop class, hide mobile class */
+
+/*Tablet Viewport: Style rule for header */
+
+/* Tablet Viewport: Style rules for nav area */
+
+/* Tablet Viewport: Style rules for main content area */
+
+/* Tablet Viewport: Style rules for table */
+
+/* Tablet Viewport: Style rule for form element */
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1015px), print {
+
+/* Desktop viewport: Style rule for header */
+
+/* Desktop Viewport: Style rules for nav area*/
+
+/* Desktop Viewport: Style Rules for main content */
+
+/* Desktop Viewport: Style rules for form elements */
+
+}
+
+/* Media Query for Large Desktop Viewports */
+
+@media screen and (min-width: 1921px) {
+
+}
