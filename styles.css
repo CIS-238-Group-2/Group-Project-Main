@@ -8,7 +8,9 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 }
 
 /* Style rules for body and images */
-
+img {
+	max-width: 100%;
+}
 /* Style rule for box sizing applies to all elements (IF NEEDED) */
 
 /* Style rules for mobile viewport*/
@@ -44,6 +46,11 @@ footer p a {color: #fff; text-decoration: none;}
 /* Tablet Viewport: Style rules for nav area */
 
 /* Tablet Viewport: Style rules for main content area */
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
 
 /* Tablet Viewport: Style rules for table */
 
