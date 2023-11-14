@@ -65,7 +65,9 @@ nav li a {
 	display: block;
 }
 
-
+.tablet-desktop{
+	display: none;
+}
 
 /* Style rules for main content */
 
@@ -76,6 +78,29 @@ main {
 main h1, h2, h3 {
 	font-family: 'Kurale', serif;
 }
+
+/*Index Main styles*/
+.index {
+	padding-top: 1em;
+}
+
+.index h1 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.index p {
+	font-size: 1.1em;
+	text-align: center;
+	font-style: italic;
+}
+
+.banner {
+	padding-bottom: 2%;
+	border-top: 2px solid #000;
+}
+
 
 .frame {
 	position: relative;
@@ -176,6 +201,12 @@ nav li a {
 	grid-gap: 20px;
 }
 
+.maingrid {
+	display: grid;
+	grid-template: auto auto;
+	grid-gap: 20px;
+}
+
 .pic-text {
 	font-size: 1em;
 	padding: 10px;
@@ -231,7 +262,7 @@ nav li a {
 	main {
 		clear: left;
 	}
-	
+
 	.pic-text {
 		font-size: 1.25em;
 		padding: 20px;
