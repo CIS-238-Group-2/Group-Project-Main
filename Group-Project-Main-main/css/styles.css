@@ -78,13 +78,13 @@ main h1, h2, h3 {
 }
 
 .frame {
-	postion: relative;
+	position: relative;
 	max-width: 300px;
 	margin: 2% auto;
 }
 
 .pic-text {
-	postion: absolute;
+	position: absolute;
 	bottom: 0;
 	background: rgba(189, 157, 235, 0.5);
 	color: #fff;
@@ -189,7 +189,7 @@ nav li a {
 	width: 75%;
 	margin: 0 auto;
 }
-
+}
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
@@ -238,7 +238,7 @@ nav li a {
 		padding: 20px;
 	}
 	/* Desktop Viewport: Style rules for form elements */
-
+}
 
 /* Media Query for Large Desktop Viewports */
 
