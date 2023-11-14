@@ -10,16 +10,59 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 /* Style rules for body and images */
 img {
 	max-width: 100%;
+	display: block;
 }
 /* Style rule for box sizing applies to all elements (IF NEEDED) */
 
 /* Style rules for mobile viewport*/
 
 /* Style rule for header */
+header {
+	top: 0;
+	background-color: #fff;
+	height: 250px;
+}
+
+header img {
+	margin: 0 auto;
+}
 
 /* Style rules for nagivation area */
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+	background-color: #fff;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Kurale', sans-serif;
+	border-top: 1px solid #000;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	display: block;
+	color: #000;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
 
 /* Show mobile class, hide tablet-desktop class */
+
+.moblie {
+	display: block;
+}
+
+
 
 /* Style rules for main content */
 
@@ -27,7 +70,7 @@ img {
 
 /* Style rules for table elements */
 caption {font-size: 2em; font-weight: bold;}
-table {background: linear-gradient(to right,  rgb(189, 157, 235), #fff); border: 1px solid #000; text-align: center; padding: 1%;} 
+table {background: linear-gradient(to right,  rgb(189, 157, 235), #fff); border: 1px solid #000; text-align: center; padding: 1%;}
 th, tr, td{border: 1px solid #000; padding: 1%; width: 10%;}
 
 /* Style rules for footer content */
@@ -40,10 +83,35 @@ footer p a {color: #fff; text-decoration: none;}
 @media screen and (min-width: 630px), print {
 
 /*Tablet Viewport: show tablet-desktop class, hide mobile class */
+.tablet-desktop {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
 
 /*Tablet Viewport: Style rule for header */
+header {
+	padding-bottom: 2%;
+}
+
 
 /* Tablet Viewport: Style rules for nav area */
+nav li {
+	display: inline-block;
+	border-top: none;
+	border-right: 1px solid #000;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+nav li a {
+	padding: 0.1em 0.75em;
+}
+
 
 /* Tablet Viewport: Style rules for main content area */
 .grid {
@@ -61,12 +129,40 @@ footer p a {color: #fff; text-decoration: none;}
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
 
-/* Desktop viewport: Style rule for header */
+	/* Desktop viewport: Style rule for header */
+	header {
+		width: 25%;
+		float: left;
+		padding-bottom: 0%;
+	}
 
-/* Desktop Viewport: Style rules for nav area*/
+	/* Desktop Viewport: Style rules for nav area*/
+	nav {
+		float: right;
+		width: 70%;
+		margin: 6em 1em 0 0;
+	}
+
+	nav ul {
+		text-align: right;
+	}
+
+	nav li {
+		border: none;
+	}
+
+	nav li a {
+		padding: 0.5em 1em;
+	}
+
+	nav li a:hover {
+		color: #DADDDF;
+		background-color: #fff;
+	}
 
 /* Desktop Viewport: Style Rules for main content */
-
+main {
+	clear: left;
 /* Desktop Viewport: Style rules for form elements */
 
 }
