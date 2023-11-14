@@ -13,7 +13,9 @@ img {
 	display: block;
 }
 /* Style rule for box sizing applies to all elements (IF NEEDED) */
-
+* {
+	box-sizing: border-box;
+}
 /* Style rules for mobile viewport*/
 
 /* Style rule for header */
@@ -21,6 +23,7 @@ header {
 	top: 0;
 	background-color: #fff;
 	height: 250px;
+	padding-bottom: 2%;
 }
 
 header img {
@@ -41,7 +44,7 @@ nav ul {
 
 nav li {
 	font-size: 1.5em;
-	font-family: 'Kurale', sans-serif;
+	font-family: 'Kurale', serif;
 	border-top: 1px solid #000;
 }
 
@@ -58,7 +61,7 @@ nav li a {
 
 /* Show mobile class, hide tablet-desktop class */
 
-.moblie {
+.mobile {
 	display: block;
 }
 
@@ -66,12 +69,38 @@ nav li a {
 
 /* Style rules for main content */
 
+main {
+	font-family:'nunito sans', sans-serif;
+}
+
+main h1, h2, h3 {
+	font-family: 'Kurale', serif;
+}
+
+.frame {
+	postion: relative;
+	max-width: 300px;
+	margin: 2% auto;
+}
+
+.pic-text {
+	postion: absolute;
+	bottom: 0;
+	background: rgba(189, 157, 235, 0.5);
+	color: #fff;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-family:'nunito sans', sans-serif;
+	font-size: 1.25em;
+}
 /* Style rules for form elements */
 
 /* Style rules for table elements */
 caption {
 	font-size: 2em;
 	font-weight: bold;
+	font-family:'nunito sans', sans-serif;
 }
 
 table {
@@ -79,6 +108,7 @@ table {
 	border: 1px solid #000;
 	text-align: center;
 	padding: 1%;
+	font-family:'nunito sans', sans-serif;
 }
 
 th, tr, td{
@@ -98,6 +128,7 @@ footer p {
 	text-align: center;
 	color: #fff;
 	padding: 0 0.5em;
+	font-family:'nunito sans', sans-serif;
 }
 
 footer p a {
@@ -146,11 +177,19 @@ nav li a {
 	grid-gap: 20px;
 }
 
+.pic-text {
+	font-size: 1em;
+	padding: 10px;
+}
+
 /* Tablet Viewport: Style rules for table */
 
 /* Tablet Viewport: Style rule for form element */
-
+.form {
+	width: 75%;
+	margin: 0 auto;
 }
+
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
@@ -189,20 +228,24 @@ nav li a {
 		background-color: #fff;
 	}
 
-/* Desktop Viewport: Style Rules for main content */
-main {
-	clear: left;
-/* Desktop Viewport: Style rules for form elements */
+	/* Desktop Viewport: Style Rules for main content */
+	main {
+		clear: left;
+	}
+	
+	.pic-text {
+		font-size: 1.25em;
+		padding: 20px;
+	}
+	/* Desktop Viewport: Style rules for form elements */
 
-}
 
 /* Media Query for Large Desktop Viewports */
 
 @media screen and (min-width: 1921px) {
 
 	#container {
-		width: 1920px;
-		margin: 0 auto;
+			width: 1920px;
+			margin: 0 auto;
 	}
-
 }
