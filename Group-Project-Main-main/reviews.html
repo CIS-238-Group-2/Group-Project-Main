@@ -19,11 +19,9 @@
     	.reviews h6 {
     		font-size: 1.15em;
     	}
-    	input, label, textarea {
+    	
+    	.block {
     		display: block;
-    	}
-    	.inline {
-    		display: inline-block;
     	}
     </style>
 
@@ -56,16 +54,16 @@
 					<fieldset>
 						<legend>Information not required</legend>
 						<label for="fName">First Name</label>
-						<input type="text" name="fName" id="fName" placeholder="First Name">
+						<input class="block" type="text" name="fName" id="fName" placeholder="First Name">
 
 						<label for="lName">Last Name:</label>
-						<input type="text" name="lName:" id="lName" placeholder="Last Name">
+						<input class="block" type="text" name="lName:" id="lName" placeholder="Last Name">
 
 						<label for="email">Email</label>
-						<input type="email" name="email" id="email" placeholder="address@example.com">
+						<input class="block" type="email" name="email" id="email" placeholder="address@example.com">
 
 						<label for="phone">Phone:</label>
-						<input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+						<input class="block" type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
 					</fieldset>
 
 					<fieldset>
@@ -81,13 +79,13 @@
                 </select>
             </fieldset>
             <fieldset>
-            <legend>Rating 1 - 5</legend>
+				<legend>Rating 1 - 5</legend>
               <label for="one">1</label><input type="radio" id="one" name="rating" value="one">
               <label for="two">2</label><input type="radio" id="two" name="rating" value="two">
               <label for="three">3</label><input type="radio" id="three" name="rating" value="three">
               <label for="four">4</label><input type="radio" id="four" name="rating" value="four">
               <label for="five">5</label><input type="radio" id="five" name="rating" value="five">
-					  </fieldset>
+			</fieldset>
 
 					<input type="submit" id="submit" value ="Submit" class="btn">
 				</form>
