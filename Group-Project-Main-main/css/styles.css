@@ -12,7 +12,7 @@ img {
 	max-width: 100%;
 	display: block;
 }
-/* Style rule for box sizing applies to all elements (IF NEEDED) */
+/* Style rule for box sizing applies to all elements */
 * {
 	box-sizing: border-box;
 }
@@ -218,7 +218,6 @@ nav li a {
 .form {
 	width: 75%;
 	margin: 0 auto;
-}
 }
 
 /* Media Query for Desktop Viewport */
