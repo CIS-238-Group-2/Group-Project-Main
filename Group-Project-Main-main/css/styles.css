@@ -290,6 +290,12 @@ footer p a {
 	text-decoration: none;
 }
 
+.icons {
+	display: inline-block;
+	max-width: 4%;
+	text-align: center;
+}
+
 .button {
 	text-decoration: none;
 	border-radius: 8px;
