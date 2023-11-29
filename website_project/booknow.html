@@ -1,0 +1,96 @@
+<!-- Name:Group 2
+	Filename:booknow.html
+	Date:11/28/2023
+	-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Frame and Focus Photography | Book Now</title>
+   <meta name=”description” content="Frame And Focus is a group of Photographers who share a passion for capturing beautiful images book now today!">
+   <link rel="stylesheet" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="images/favicon.ico">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+   <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+  <div id="container">
+    <header>
+       <a href="index.html"><img src="images/frame-and-focus-logo.png" alt="frame and focus logo"></a>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Portfolio</a></li>
+          <li><a href="meetthestaff.html">Meet the Staff</a></li>
+          <li><a href="booknow.html">Book Now</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+    	<!-- Banner Image-->
+		  <img src="images/banner.jpg" alt="Picture of cameras" class="banner">
+      <div id="booknow">
+        <h1>Book Your Photoshoot Now!</h1>
+        <p>Ready to capture your special moments? Frame and Focus Photography is here to bring your vision to life. Whether it's a family portrait, a graduation photoshoot, or capturing the essence of your pet, we're here to create memories that last a lifetime. Secure your photoshoot spot today!</p>
+        <h3>Fill Out the Booking Form Below</h3>
+        <p>Let us know your details and preferences for the photoshoot. Our team will reach out to you to confirm the booking and discuss any additional requirements.</p>
+        <form class="form-grid">
+          <fieldset>
+            <legend>Contact Info</legend>
+            <label for="fname"> First Name: </label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="recieve"><input type="checkbox" name="recieve" id="recieve" value="Recieve Email Notifications">I agree to receive email notifications for upcoming events, bookings, and other Frame and Focus promotions.</label>
+          </fieldset>
+          <fieldset>
+            <legend>Booking Info</legend>
+            <label for="shoot">Type of Photoshoot</label>
+              <select id="shoot">
+                  <option value="graduation">Graduation</option>
+                  <option value="family">Family</option>
+                  <option value="personal">Personal</option>
+                  <option value="landscape">Landscape</option>
+                  <option value="pet">Pet</option>
+                  <option value="other">Other</option>
+                </select>
+              <label for="time">Booking Length:</label>
+                <select id="time">
+                  <option value="1hour">1 Hour</option>
+                  <option value="1hour30minutes">1 Hour & 30 Minutes</option>
+                  <option value="2hours">2 Hours</option>
+                  <option value="2hours30minutes">2 Hours and 30 Minutes</option>
+                  <option value="3hours">3 Hours</option>
+                </select>
+            </fieldset>
+            <fieldset>
+              <legend>Additional Details</legend><br>
+              <textarea name="additional" rows="10" cols="60">Use this area to list any specific details or information regarding your photoshoot.</textarea>
+              </fieldset>
+              <input type="submit" value="Submit" class="button">
+              <p>*Once your information is submitted, we'll reach back out with our availability.</p>
+        </form>
+    </div>
+    </main>
+    <footer>
+      <p>&copy; Copyright 2023. All Rights Reserved.</p>
+      <p><a href="mailto:frameandfocus@gmail.com">frameandfocus@gmail.com</a></p>
+      <div id="icons">
+        <a href="https://www.facebook.com/frameandfocus" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+        <a href="https://www.twitter.com/frameandfocus" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+        <a href="https://www.instagram.com/frameandfocus" target="_blank"><img src="images/instagram-logo.png" alt="Instagram logo"></a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

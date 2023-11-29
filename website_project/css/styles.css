@@ -1,0 +1,611 @@
+/* Css */
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Style rules for body and images */
+img {
+	max-width: 100%;
+	display: block;
+}
+/* Style rule for box sizing applies to all elements */
+* {
+	box-sizing: border-box;
+}
+/* Style rules for mobile viewport*/
+
+/* Style rule for header */
+header {
+	background-color: #ffffff;
+	height: 250px;
+}
+
+header img {
+	margin: 0 auto;
+}
+
+/* Style rules for nagivation area */
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+	background-color: #ffffff;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Kurale', serif;
+	border-top: 1px solid #000;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	display: block;
+	color: #000;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+
+.mobile {
+	display: block;
+}
+
+.tablet-desktop{
+	display: none;
+}
+
+/* Style rules for main content */
+
+main {
+	font-family:'nunito sans', sans-serif;
+	background-color: #f5e9eb;
+	padding-bottom: 3%;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	margin: 2%;
+}
+
+p {
+	text-align: center;
+	font-style: italic;
+}
+
+h1, h2, h3 {
+	font-family: 'Kurale', serif;
+}
+
+.banner {
+	border: 1px solid #000;
+	width: 100%;
+}
+
+/*Index styles*/
+
+.index {
+	padding-top: .1em;
+	padding-bottom: .1em;
+}
+
+.index h2 {
+	text-align: center;
+	font-size: 3em;
+}
+
+.index li {
+	text-align: center;
+	font-style: italic;
+	list-style: none;
+	font-size: 1em;
+}
+
+.index p {
+	font-size: 1.1em;
+	text-align: center;
+	font-style: italic;
+	margin: 2%;
+}
+
+.img-mobile {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	border: solid 1px #000;
+}
+
+/* Gallery Styles*/
+
+#portfoilo p {
+	font-size: 1.1em;
+	margin:0 4% 0 4%;
+}
+
+#portfoilo h2 {
+	text-align: center;
+	margin:10% 0 10% 0;
+}
+
+#portfoilo img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	padding: 1%;
+}
+
+/* Gallery pages styling for mobile*/
+.portfoilo p {
+	font-size: 1.1em;
+	margin:0 4% 2% 4%;
+}
+
+.portfoilo .mobile img {
+	padding: 3%;
+}
+
+/* Meet the staff styles*/
+#meet p {
+	font-size: 1.4em;
+	margin: 1.5%;
+}
+
+.frame {
+	position: relative;
+	max-width: 300px;
+	margin: 2% auto;
+}
+
+.pic-text {
+	bottom: 0;
+	background: #eeece5;
+	color: #000;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-family:'nunito sans', sans-serif;
+	font-size: 1.25em;
+}
+
+/* Contact page styles */
+#contact h2 {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+#contact h4 {
+	text-align: center;
+	font-size: 2.1em;
+}
+
+#contact p {
+	font-size: 1.3em;
+}
+
+.tele {
+	background-color: #dbdada;
+	padding: 3%;
+	margin: 0 auto;
+	width: 65%;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.tele a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.1em;
+	display: block;
+}
+
+#contact .email a {
+color: #3a3838;
+text-decoration: none;
+}
+
+/* Style rules for book now elements */
+#booknow p {
+	font-size: 1.5em;
+	margin:0 5% 0 5%;
+}
+
+#booknow h3 {
+	text-align: center;
+	font-size: 1.9em;
+}
+
+/* Style rules for forms */
+form {
+	padding: 2%;
+	background-color: #eeece5;
+	margin:2%;
+}
+
+fieldset, input, select, textarea {
+	margin-bottom: 1.5%;
+}
+
+fieldset legend {
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+label {
+	display: block;
+	font-size: 1.5em;
+}
+
+/* Style rules for reviews*/
+.reviews {
+	font-size: 1em
+}
+
+.reviews h6 {
+	text-align: center;
+	font-size: 1.15em;
+}
+
+.reviews p {
+	padding-bottom: 2%;
+}
+
+.block {
+	display: block;
+}
+
+
+/* About style rules*/
+#about h2 {
+	text-align: center;
+}
+
+#about p {
+	margin:0 5% 3% 5%;
+}
+
+/* Style rules for table elements */
+caption {
+	font-size: 2em;
+	font-weight: bold;
+	font-family:'nunito sans', sans-serif;
+	margin-bottom: 1%;
+}
+
+table {
+	background-color: #eeece5;
+	border: 1px solid #000;
+	text-align: center;
+	padding: 1%;
+	font-family:'nunito sans', sans-serif;
+	margin: 2%;
+}
+
+th, tr, td{
+	border: 1px solid #000;
+	padding: 1%;
+	width: 10%;
+}
+
+/* Style rules for footer content */
+footer {
+	background-color: #f5e9eb;
+	padding: .03em;
+}
+
+footer p {
+	font-size: 1em;
+	text-align: center;
+	color: #000;
+	padding: 0 0.5em;
+	font-family:'nunito sans', sans-serif;
+}
+
+footer p a {
+	color: #000;
+	text-decoration: none;
+}
+
+#icons {
+	position: relative;
+	text-align: center;
+}
+
+#icons img {
+	display: inline-block;
+}
+
+.button {
+	text-decoration: none;
+	border-radius: 8px;
+	background-color: #dbdada;
+	padding: 0.5em 0.5em;
+	text-align: center;
+	font-size: 1.3em;
+	color: #000;
+}
+
+/*Media Query for Tablet Viewport */
+@media screen and (min-width: 830px) {
+
+/*Tablet Viewport: show tablet-desktop class, hide mobile class */
+.tablet-desktop {
+	display: block;
+}
+
+.mobile {
+	display: none;
+}
+
+/*Tablet Viewport: Style rule for header */
+header {
+	padding-bottom: 2%;
+}
+
+
+/* Tablet Viewport: Style rules for nav area */
+nav li {
+	display: inline-block;
+	border-top: none;
+	border-right: 1px solid #000;
+}
+
+nav li:last-child {
+	border-right: none;
+}
+
+nav li a {
+	padding: 0.1em 0.75em;
+}
+
+
+/* Tablet Viewport: Style Rules for meet the staff */
+
+.meet1 {
+	float: left;
+	width: 33.33%;
+}
+
+.meet0:after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
+.pic-text {
+	font-size: 1em;
+	padding: 10px;
+}
+
+
+/* Style rules for index page grid */
+.index-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 1%;
+	grid-row-gap: 1%;
+	padding: 3em;
+}
+
+.index-grid1 { 
+	grid-area: 1 / 1 / 2 / 2;
+	float: right;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.index-grid2 {
+	grid-area: 1 / 2 / 2 / 3;
+	margin: auto;
+}
+
+.index-grid3 {
+	grid-area: 2 / 1 / 3 / 2;
+	margin: auto;
+}
+
+.index-grid4 {
+	grid-area: 2 / 2 / 3 / 3;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+/* Style rules for gallery pages slide shows*/
+/* Slideshow container */
+.slideshow-container {
+	max-width: 80%;
+	position: relative;
+	margin: auto;
+	border: solid 2px #000;
+	margin-top: 1%;
+	margin-bottom: 1%;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 1.2em;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 1em;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin:.5% 0 1% 0;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+/* Tablet Viewport: Style rule for form element */
+.form {
+	width: 75%;
+	margin: 0 auto;
+}
+
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1370px), print {
+
+	/* Desktop viewport: Style rule for header */
+	header {
+		width: 20%;
+		float: left;
+		padding-bottom: 0%;
+	}
+
+	header img{
+		margin-left: 3em;
+	}
+	/* Desktop Viewport: Style rules for nav area*/
+	nav {
+		float: right;
+		width: 75%;
+		margin: 6em 1em 0 0;
+	}
+
+	nav ul {
+		text-align: right;
+	}
+
+	nav li {
+		border: none;
+	}
+
+	nav li a {
+		padding: 0.5em 1em;
+	}
+
+	nav li a:hover {
+		color: #fff;
+		background-color: #f5e9eb;
+		border-style: outset;
+	}
+
+	/* Desktop Viewport: Style Rules for main content */
+	main {
+		clear: left;
+	}
+
+	.pic-text {
+		font-size: 1.25em;
+		padding: 20px;
+	}
+
+	.button:hover {
+		box-shadow: 0 .1em .2em 0 rgba(0,0,0,0.24), 0 .4em 1em 0 rgba(0,0,0,0.19);
+	}
+	
+	/*Style rules for Gallery page grid */
+	.gallery-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-column-gap: 1%;
+		padding: 2%;
+		border-top: 1px solid #000;
+		margin-top: 3%;
+		background-color: #eeece5;
+	}
+
+	.gallery-grid1 { 
+		grid-area: 1 / 1 / 2 / 2; 
+	}
+	.gallery-grid2 { 
+		grid-area: 1 / 2 / 2 / 3; 
+	}
+	.gallery-grid3 { 
+		grid-area: 1 / 3 / 2 / 4; 
+	}
+	/* Desktop Viewport: Style rules for form elements */
+	.form-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-gap: 2.5em;
+	}
+	
+}
+
+/* Media Query for Large Desktop Viewports */
+
+@media screen and (min-width: 1921px) {
+
+	#container {
+			width: 1920px;
+			margin: 0 auto;
+	}
+}

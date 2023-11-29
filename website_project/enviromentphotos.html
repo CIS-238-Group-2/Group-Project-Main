@@ -1,0 +1,134 @@
+<!-- 
+    Name:Group 2
+	Filename:gallery.html
+	Date:11/28/2023
+	-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environment Photos Portfolio - Frame and Focus Photography</title>
+    <meta name=”description” content="Frame And Focus is a group of Photographers who share a passion for capturing beautiful images take a look at our enviorment photos!">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+<!-- Container Div-->  
+  <div id="container">
+    <header>
+       <a href="index.html"><img src="images/frame-and-focus-logo.png" alt="frame and focus logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="meetthestaff.html">Meet the Staff</a></li>
+            <li><a href="booknow.html">Book Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+       <!-- Banner Image-->
+       <img src="images/banner.jpg" alt="Picture of cameras" class="banner">        
+        <!-- Portfolio page container-->
+       <div class="portfoilo">
+            <h1>Environment Photos Portfolio</h1>
+            <p>Welcome to our Environment Photos Portfolio. In this gallery, we present a series of photographs that capture the essence and beauty of natural and urban environments. From serene landscapes to bustling cityscapes, each image is a window into diverse habitats and spaces. Explore the world through our lens and experience the harmony between nature and civilization.</p>
+             <!--Slide Show Container-->
+             <div class="slideshow-container tablet-desktop">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="images/enviroment-photo-1.jpg" style="width:100%" alt="">
+                    <div class="text">Seashore</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 9</div>
+                    <img src="images/enviroment-photo-2.jpg" style="width:100%" alt="">
+                    <div class="text">Lavender Field</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 9</div>
+                    <img src="images/enviroment-photo-3.jpg" style="width:100%" alt="">
+                    <div class="text">Snowcap mountains with fog</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="images/enviroment-photo-4.jpg" style="width:100%" alt="">
+                    <div class="text">Road leading into the mountains</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="images/enviroment-photo-5.jpg" style="width:100%" alt="">
+                    <div class="text">Swan on a gloomy day</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="images/enviroment-photo-6.jpg" style="width:100%" alt="">
+                    <div class="text">Indegnous huts with mountain background</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="images/enviroment-photo-7.jpg" style="width:100%" alt="">
+                    <div class="text">Trail through the trees</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="images/enviroment-photo-8.jpg" style="width:100%" alt="">
+                    <div class="text">Snowcap mountain</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="images/enviroment-photo-9.jpg" style="width:100%" alt="">
+                    <div class="text">Northern Lights</div>
+                </div>
+                <!-- Html for page arrows-->
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <!--Html for page dots-->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+                <span class="dot" onclick="currentSlide(9)"></span> 
+            </div>
+            <!-- Html for mobile gallery images-->
+            <div class="mobile">
+                <img src="images/enviroment-photo-1.jpg" alt="Environment Photo 1">
+                <img src="images/enviroment-photo-2.jpg" alt="Environment Photo 2">
+                <img src="images/enviroment-photo-3.jpg" alt="Environment Photo 3">
+                <img src="images/enviroment-photo-4.jpg" alt="Environment Photo 4">
+                <img src="images/enviroment-photo-5.jpg" alt="Environment Photo 5">
+                <img src="images/enviroment-photo-6.jpg" alt="Environment Photo 6">
+                <img src="images/enviroment-photo-7.jpg" alt="Environment Photo 7">
+                <img src="images/enviroment-photo-8.jpg" alt="Environment Photo 8">
+                <img src="images/enviroment-photo-9.jpg" alt="Environment Photo 9">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2023. All Rights Reserved.</p>
+        <p><a href="mailto:frameandfocus@gmail.com">frameandfocus@gmail.com</a></p>
+        <div id="icons">
+			<a href="https://www.facebook.com/frameandfocus" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a>
+			<a href="https://www.twitter.com/frameandfocus" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a>
+			<a href="https://www.instagram.com/frameandfocus" target="_blank"><img src="images/instagram-logo.png" alt="Instagram logo"></a>
+		</div>
+    </footer>
+  </div>
+  <!-- Script for slide show-->
+<script src="scripts/script.js"></script>
+</body>
+</html>
